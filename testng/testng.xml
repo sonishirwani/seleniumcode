@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="End To End Automation Reports" data-provider-thread-count="1">
+	  	<test verbose="2" name="Alternate Cube Report16">
+		<parameter name="excelPath" value="Resources\ReportAutomationTestSuit.xls"/> 
+		<parameter name="suiteName" value="Test5"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://soni.technologic.com:8080/app1"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="cf1"/>
+		<parameter name="hub" value="http://bim05:4444/wd/hub"/>
+		<parameter name="executionMode" value="local"/>
+		<classes>
+			<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	    </test>
+ </suite>

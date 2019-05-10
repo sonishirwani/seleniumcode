@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ReportAutomationonSubstractNode1" data-provider-thread-count="1">
+	 <test verbose="2" name="R">
+		<parameter name="excelPath" value="Resources/ReportAutomationTestSuit.xls"/> 
+		<parameter name="suiteName" value="AddNodewithPradicateonItem"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://bim11:8080/QA4"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="14a"/>
+		<parameter name="executionMode" value="local"/>
+		<parameter name="hub" value="http://bim05:4444/wd/hub"/>
+		<classes>
+			<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	 </test>
+	<test verbose="2" name="R1">
+		<parameter name="excelPath" value="Resources/ReportAutomationTestSuit.xls"/> 
+		<parameter name="suiteName" value="ReportAutomationCR_To_CN"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://bim11:8080/QA4"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="14a"/>
+		<parameter name="executionMode" value="local"/>
+		<parameter name="hub" value="http://bim05:4444/wd/hub"/>
+		<classes>
+			<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	 </test>
+	 <test verbose="2" name="R2">
+		<parameter name="excelPath" value="Resources/ReportAutomationTestSuit.xls"/> 
+		<parameter name="suiteName" value="IccWorldCup(Batting)"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://bim11:8080/QA4"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="14a"/>
+		<parameter name="executionMode" value="local"/>
+		<parameter name="hub" value="http://bim05:4444/wd/hub"/>
+		<classes>
+			<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	 </test>
+	 <test verbose="2" name="R3">
+		<parameter name="excelPath" value="Resources/ReportAutomationTestSuit.xls"/> 
+		<parameter name="suiteName" value="Outlook_Details"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://bim11:8080/QA4"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="14a"/>
+		<parameter name="executionMode" value="local"/>
+		<parameter name="hub" value="http://bim05:4444/wd/hub"/>
+		<classes>
+			<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	 </test>
+	 <test verbose="2" name="R4">
+		<parameter name="excelPath" value="Resources/ReportAutomationTestSuit.xls"/> 
+		<parameter name="suiteName" value="ReportAutomationonSubstractNode"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://bim11:8080/QA4"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="14a"/>
+		<parameter name="executionMode" value="local"/>
+		<parameter name="hub" value="http://bim05:4444/wd/hub"/>
+		<classes>
+			<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	 </test>
+	 <test verbose="2" name="R5">
+		<parameter name="excelPath" value="Resources/ReportAutomationTestSuit.xls"/> 
+		<parameter name="suiteName" value="ReportAutomationChangeNotice.xl"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://bim11:8080/QA4"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="14a"/>
+		<parameter name="executionMode" value="local"/>
+		<parameter name="hub" value="http://bim05:4444/wd/hub"/>
+		<classes>
+			<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	 </test>
+ </suite>
+

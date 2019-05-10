@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="End To End Automation Reports" duration-ms="74650" started-at="2017-01-19T09:21:01Z" finished-at="2017-01-19T09:22:16Z">
+    <groups>
+    </groups>
+    <test name="Alternate Cube Report12" duration-ms="74650" started-at="2017-01-19T09:21:01Z" finished-at="2017-01-19T09:22:16Z">
+      <class name="com.eqtechnologic.framework.TestSuite">
+        <test-method status="PASS" signature="setSuiteDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eqtechnologic.framework.TestSuite@2788f0f7]" name="setSuiteDetails" is-config="true" duration-ms="211" started-at="2017-01-19T14:51:01Z" finished-at="2017-01-19T14:51:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Resources\ReportAutomationTestSuit.xls]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://192.168.41.57:8080/eQubeBI/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://bim05:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[14a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSuiteDetails -->
+        <test-method status="PASS" signature="suiteExecution(java.lang.String, java.lang.String)[pri:0, instance:com.eqtechnologic.framework.TestSuite@2788f0f7]" name="suiteExecution" duration-ms="74352" started-at="2017-01-19T14:51:01Z" data-provider="testsuite" finished-at="2017-01-19T14:52:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Resources\ReportAutomation_bugs_by_assignee.xls]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteExecution -->
+        <test-method status="PASS" signature="endTestCase(org.testng.ITestResult)[pri:0, instance:com.eqtechnologic.framework.TestSuite@2788f0f7]" name="endTestCase" is-config="true" duration-ms="11" started-at="2017-01-19T14:52:16Z" finished-at="2017-01-19T14:52:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=suiteExecution status=SUCCESS method=TestSuite.suiteExecution(java.lang.String, java.lang.String)[pri:0, instance:com.eqtechnologic.framework.TestSuite@2788f0f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestCase -->
+      </class> <!-- com.eqtechnologic.framework.TestSuite -->
+    </test> <!-- Alternate Cube Report12 -->
+  </suite> <!-- End To End Automation Reports -->
+</testng-results>

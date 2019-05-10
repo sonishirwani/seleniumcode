@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium-server-standalone-2.44.0.jar -role node -hub http://bim05.technologic.com:4444/grid/register -browser browserName=chrome -port 5555

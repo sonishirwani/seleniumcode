@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/ant-1.9.4.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/ant-launcher-1.9.4.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/aspose-cells-8.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/jsch-0.1.44.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/JSCover-all.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/json-20140107.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/jsonhandler.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/json-lib-2.2.2-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/log4j.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/oldjson-20080701.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/opencsv-2.3.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/phantomjsdriver-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/poi-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/poi-ooxml-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/poi-ooxml-schemas-3.8-beta4-20110826.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/poi-scratchpad-3.8.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/selenium-server-standalone-2.44.0.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/testng-6.8.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/testng-6.8-bsh-noguice.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/testng-6.8-dist.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/testng-6.8-junit.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/testng-6.8-nobsh-guice.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/testng-6.8-nobsh-noguice.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/EDrive/Selenium Framework Document/All Jars/zap-api-v2-2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SaveRetrieve Automation" data-provider-thread-count="1">
+	 <test verbose="2" name="Create Users">
+		<parameter name="excelPath" value="Resources/UserCreationTestsuit.xls"/> 
+		<parameter name="suiteName" value="Users"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/adminconsole"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="14a"/>
+		<classes>
+			<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	 </test>
+	   <test verbose="2" name="Create Portal">
+		<parameter name="excelPath" value="Resources/TestSuite_BNP.xls"/> 
+		<parameter name="suiteName" value="TestPortal"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="14a"/>
+		<classes>
+			<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	 </test>
+ 	<!--<test verbose="2" name="MakeMyTrip">
+		<parameter name="excelPath" value="Resources/TestSuite.xls"/> 
+		<parameter name="suiteName" value="suite2"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://www.makemytrip.com/"/>
+		<classes>
+			<class name="com.eqtechnologic.TestSuite"/>
+		</classes>
+	</test> -->
+	<test verbose="2" name="BNPA">
+		<parameter name="excelPath" value="Resources/SearchTestDataTestSuite.xls"/> 
+		<parameter name="suiteName" value="M1"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+<test verbose="2" name="BNPC">
+		<parameter name="excelPath" value="Resources/SearchTestDataTestSuite.xls"/> 
+		<parameter name="suiteName" value="M2"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+	<test verbose="2" name="BNPD">
+		<parameter name="excelPath" value="Resources/SaveRetrieveTestSuite.xls"/> 
+		<parameter name="suiteName" value="Critical"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+<test verbose="2" name="BNPE">
+		<parameter name="excelPath" value="Resources/SaveRetrieveTestSuite.xls"/> 
+		<parameter name="suiteName" value="M1"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+<test verbose="2" name="BNPF">
+		<parameter name="excelPath" value="Resources/SaveRetrieveTestSuite.xls"/> 
+		<parameter name="suiteName" value="M2"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+<test verbose="2" name="BNPG">
+		<parameter name="excelPath" value="Resources/SaveRetrieveTestSuite.xls"/> 
+		<parameter name="suiteName" value="M3"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+	<test verbose="2" name="BNPH">
+		<parameter name="excelPath" value="Resources/Search-TestSuite.xls"/> 
+		<parameter name="suiteName" value="Smoke"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+	   <test verbose="2" name="BNPI">
+		<parameter name="excelPath" value="Resources/Search-TestSuite.xls"/> 
+		<parameter name="suiteName" value="Critical"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+	   <test verbose="2" name="BNPJ">
+		<parameter name="excelPath" value="Resources/Search-TestSuite.xls"/> 
+		<parameter name="suiteName" value="M1"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+	   <test verbose="2" name="BNPK">
+		<parameter name="excelPath" value="Resources/Search-TestSuite.xls"/> 
+		<parameter name="suiteName" value="M2"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+	   <test verbose="2" name="BNPL">
+		<parameter name="excelPath" value="Resources/Search-TestSuite.xls"/> 
+		<parameter name="suiteName" value="M3"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+	  <test verbose="2" name="BNPM">
+		<parameter name="excelPath" value="Resources/Search-TestSuite.xls"/> 
+		<parameter name="suiteName" value="M4"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+	  <test verbose="2" name="BNPO">
+		<parameter name="excelPath" value="Resources/Search-TestSuite.xls"/> 
+		<parameter name="suiteName" value="M5"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+	  <test verbose="2" name="BNPQ">
+		<parameter name="excelPath" value="Resources/Search-TestSuite.xls"/> 
+		<parameter name="suiteName" value="M6"/>
+		<parameter name="browser" value="chrome"/> 
+		<parameter name="url" value="http://mrunalini:8080/MT7011/bnp"/>
+		<parameter name="exceptionScript" value="false"/>
+		<parameter name="configID" value="LINA"/>
+				<classes>
+				<class name="com.eqtechnologic.framework.TestSuite"/>
+		</classes>
+	</test> 
+</suite>

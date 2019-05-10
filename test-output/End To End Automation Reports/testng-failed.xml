@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [End To End Automation Reports]" data-provider-thread-count="1">
+  <parameter name="exceptionScript" value="false"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="suiteName" value="Test5"/>
+  <parameter name="executionMode" value="local"/>
+  <parameter name="hub" value="http://bim05:4444/wd/hub"/>
+  <parameter name="configID" value="cf1"/>
+  <parameter name="url" value="http://soni.technologic.com:8080/app1"/>
+  <parameter name="excelPath" value="Resources\ReportAutomationTestSuit.xls"/>
+  <test verbose="2" name="Alternate Cube Report16">
+    <parameter name="exceptionScript" value="false"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="executionMode" value="local"/>
+    <parameter name="suiteName" value="Test5"/>
+    <parameter name="hub" value="http://bim05:4444/wd/hub"/>
+    <parameter name="configID" value="cf1"/>
+    <parameter name="url" value="http://soni.technologic.com:8080/app1"/>
+    <parameter name="excelPath" value="Resources\ReportAutomationTestSuit.xls"/>
+    <classes>
+      <class name="com.eqtechnologic.framework.TestSuite"/>
+    </classes>
+  </test> <!-- Alternate Cube Report16 -->
+</suite> <!-- Failed suite [End To End Automation Reports] -->
